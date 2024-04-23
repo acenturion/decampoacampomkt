@@ -28,7 +28,7 @@ const PriceProduct = styled.p`
 function Product({product, onPress}) {
     return (
         <ProductContainer onClick={onPress}>
-            <img src={"../../src/assets/" + product?.image} alt={product?.title} width={200} height={200}/>
+            <img src={product?.image} alt={product?.title} width={200} height={200}/>
             <TitleProduct>{product?.title}</TitleProduct>
             <PriceProduct>${product?.price}</PriceProduct>
         </ProductContainer>
