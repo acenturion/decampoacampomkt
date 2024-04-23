@@ -5,7 +5,7 @@
     "subTitle": "Calostro Bovino Deshidratado",
     "price": 25000,
     "description": "Calostro Bovino Deshidratado en Polvo. Elaborado solamente a base de calostro bovino natural ideal para complementar o reemplazar el calostro materno en recién nacidos . EL contenido del paquete se puede disolver fácilmente en 1.25 lt. de agua. Peso Neto: 700 g de Polvo Contiene 100 g de IgG",
-    "image": "producto1.png"
+    "image": "https://raw.githubusercontent.com/acenturion/decampoacampomkt/main/src/assets/producto1.png"
   },
   {
     "id": "2",
