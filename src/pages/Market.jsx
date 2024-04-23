@@ -28,7 +28,7 @@ function Market() {
                     <OptionContainer value="2">Sociedad 2</OptionContainer>
                 </SelectContainer>
                 <AccountCard price={"$ 123123.12"} type={"Saldo"} color={"#363a3f"}/>
-                <AccountCard price={123} type={"Puntos"} color={"#3179a7"}/>
+                <AccountCard price={3000} type={"Puntos"} color={"#3179a7"}/>
             </Sidebar>
             <GridProducts/>
         </Container>
