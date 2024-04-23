@@ -6,6 +6,7 @@ import productsJson from '../mock/products.json'
 import {useParams} from "react-router-dom";
 import styled from "styled-components";
 import AccountCard from "../components/AccounCard.jsx";
+import Logo from "../components/Logo.jsx";
 
 const TitleProduct = styled.h2`
     color: #1f4c68;
@@ -64,12 +65,13 @@ function Product() {
     return (
         <Container>
             <Sidebar>
+                <Logo>Market</Logo>
                 <AccountCard price={123} type={"Puntos"} color={"#3179a7"}/>
             </Sidebar>
             <div>
-                <img src={"../../src/assets/" + product?.image} alt={product?.name} width={300} height={300}/>
+                <img src={product?.image} alt={product?.name} width={300} height={300}/>
             </div>
-            <div>
+            <div style={{padding: '0 1em'}}>
                 <TitleProduct>{product?.title}</TitleProduct>
                 <SubTitle>{product?.subTitle}</SubTitle>
                 <Price>ARS $ {newPrice}</Price>
